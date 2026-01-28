@@ -3,3 +3,11 @@
 body {
   margin: 0;
 }
+
+/* WRAPPER STYLES */
+.wrapper {
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* HEADER STYLES */
