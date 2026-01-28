@@ -6,9 +6,73 @@ body {
 
 /* WRAPPER STYLES */
 .wrapper {
+  display: flex;
+  flex-direction: column;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   margin: 0 auto;
   width: 70%;
 }
 
 /* HEADER STYLES */
+.header {
+  background-color: #1f2937;
+  color: #e2e7eb;
+}
+
+.header-logo {
+  color: #f9f1f8;
+  font-size: 24px;
+}
+
+.link-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.link-list a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+/* HERO STYLES */
+
+.main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+/* BUTTON STYLES */
+.sign-up {
+  background-color: #3882f6;
+  color: #fff;
+}
+
+/* DISPLAY STYLES */
+.item-display h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+/* QUOTE STYLES */
+.quote {
+  background-color: #e5e7eb;
+}
+
+.inspiring-quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* CALL TO ACTION STYLES */
+
+
+/* FOOTER STYLES */
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
