@@ -15,23 +15,31 @@ body {
 
 /* HEADER STYLES */
 .header {
+  align-items: center;
   background-color: #1f2937;
   color: #e2e7eb;
   display: flex;
+  justify-content: space-between;
+  padding: 16px 16px 32px;
 }
 
 .header-logo {
   color: #f9f1f8;
   font-size: 24px;
+  font-weight: 900;
 }
 
 .link-list {
+  display: flex;
+  gap: 16px;
   list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
 .link-list a {
   color: #e5e7eb;
+  text-decoration: none;
   font-size: 18px;
 }
 
@@ -39,6 +47,19 @@ body {
 .hero {
   background-color: #1f2937;
   color: #e2e7eb;
+  display: flex;
+  gap: 16px;
+  padding: 32px 32px 64px;
+}
+
+.hero * {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
 }
 
 .main-text {
@@ -47,10 +68,18 @@ body {
   font-weight: 900;
 }
 
+.hero-paragraph {
+  margin-bottom: 8px;
+}
+
 /* BUTTON STYLES */
 .sign-up {
   background-color: #3882f6;
+  border: 1.9px solid #3882f6;
+  border-radius: 8px;
   color: #fff;
+  font-weight: 900;
+  padding: 6px 30px;
 }
 
 /* DISPLAY STYLES */
