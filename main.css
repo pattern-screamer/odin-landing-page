@@ -9,8 +9,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  margin: 0 auto;
-  width: 70%;
 }
 
 /* HEADER STYLES */
