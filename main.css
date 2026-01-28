@@ -11,14 +11,21 @@ body {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
+.wrapper > * {
+  padding: 0 15%;
+}
+
 /* HEADER STYLES */
+.header-bg {
+  background-color: #1f2937;
+}
+
 .header {
   align-items: center;
-  background-color: #1f2937;
   color: #e2e7eb;
   display: flex;
   justify-content: space-between;
-  padding: 16px 16px 32px;
+  padding: 16px;
 }
 
 .header-logo {
@@ -42,12 +49,15 @@ body {
 }
 
 /* HERO STYLES */
-.hero {
+.hero-bg {
   background-color: #1f2937;
+}
+
+.hero {
   color: #e2e7eb;
   display: flex;
-  gap: 16px;
-  padding: 32px 32px 64px;
+  gap: 48px;
+  padding: 96px 16px;
 }
 
 .hero * {
@@ -58,6 +68,13 @@ body {
 .hero-left,
 .hero-right {
   flex: 1;
+}
+
+.hero-right {
+  align-items: center;
+  background-color: #808080;
+  display: flex;
+  justify-content: center;
 }
 
 .main-text {
@@ -85,11 +102,40 @@ body {
   color: #1f2937;
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding-bottom: 96px;
+}
+
+.item {
+  width: 200px;
+}
+
+.item p {
+  text-align: center;
 }
 
 /* QUOTE STYLES */
-.quote {
+.quote-bg {
   background-color: #e5e7eb;
+}
+
+.quote {
+  margin: 100px;
+}
+
+.quote p {
+  margin: 0;
+}
+
+.author {
+  text-align: right;
+  padding-right: 16px;
 }
 
 .inspiring-quote {
