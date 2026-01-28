@@ -17,6 +17,7 @@ body {
 .header {
   background-color: #1f2937;
   color: #e2e7eb;
+  display: flex;
 }
 
 .header-logo {
@@ -35,6 +36,10 @@ body {
 }
 
 /* HERO STYLES */
+.hero {
+  background-color: #1f2937;
+  color: #e2e7eb;
+}
 
 .main-text {
   color: #f9faf8;
