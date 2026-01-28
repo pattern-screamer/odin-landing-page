@@ -6,6 +6,7 @@ body {
 
 /* WRAPPER STYLES */
 .wrapper {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   margin: 0 auto;
   width: 70%;
 }
