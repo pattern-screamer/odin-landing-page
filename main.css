@@ -12,7 +12,7 @@ body {
 }
 
 .wrapper > * {
-  padding: 0 15%;
+  padding: 0 20%;
 }
 
 /* HEADER STYLES */
@@ -57,7 +57,7 @@ body {
   color: #e2e7eb;
   display: flex;
   gap: 48px;
-  padding: 96px 16px;
+  padding: 80px 16px 96px;
 }
 
 .hero * {
@@ -108,6 +108,7 @@ body {
 }
 
 .items {
+  color: #1f2937;
   display: flex;
   gap: 32px;
   justify-content: center;
@@ -136,8 +137,11 @@ body {
 }
 
 .author {
-  text-align: right;
+  color: #1f2937;
+  font-weight: bold;
   padding-right: 16px;
+  padding-top: 16px;
+  text-align: right;
 }
 
 .inspiring-quote {
@@ -153,7 +157,7 @@ body {
   background-color: #3882f6;
   border: 2px solid #3882f6;
   border-radius: 8px;
-  color: #fff;
+  color: #e5e7eb;
   display: flex;
   gap: 16px;
   justify-content: space-between;
