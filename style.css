@@ -117,3 +117,30 @@ a {
   font-size: 18px;
   text-align: center;
 }
+
+.quote-wrapper {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.cta {
+  display: flex;
+  background-color: #3882F6;
+}
+
+.cta-sign-up {
+  border: 2px solid #fff;
+}
