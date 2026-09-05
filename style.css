@@ -84,3 +84,36 @@ a {
   background-color: #6d747d;
   color: #fff;
 }
+
+.information-heading {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin: 48px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 96px;
+}
+
+.card {
+  width: 175px;
+}
+
+.card-image {
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+  height: 175px;
+  width: 175px;
+  margin-bottom: 16px;
+}
+
+.card-description {
+  color: #666;
+  font-size: 18px;
+  text-align: center;
+}
