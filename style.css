@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.header,
+.hero,
+.footer {
+  background-color: #1F2937;
+}
+
+.content {
+  background-color: #000;
+}
+
+.header {
+  color: #fff;
+}
