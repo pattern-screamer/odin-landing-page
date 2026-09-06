@@ -31,7 +31,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
+  padding: 16px 0; /* The horizontal padding is specified further down the 
+                      stylesheet. */
 }
 
 .header-logo {
@@ -47,6 +48,8 @@ a {
 
 .hero {
   display: flex;
+  gap: 64px;
+  padding: 96px 0 112px;
 }
 
 .hero-left,
@@ -97,7 +100,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 48px;
-  margin-bottom: 96px;
+  margin-bottom: 100px;
 }
 
 .card {
@@ -120,6 +123,8 @@ a {
 
 .quote-wrapper {
   background-color: #E5E7EB;
+  padding: 100px 0;
+  margin-bottom: 100px;
 }
 
 .quote {
@@ -134,13 +139,63 @@ a {
   font-size: 24px;
   font-weight: bold;
   text-align: right;
+  margin-right: 40px;
 }
 
 .cta {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+  padding: 42px 120px;
   background-color: #3882F6;
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+
+.cta-main-text,
+.cta-secondary-text {
+  color: #fff;
+}
+
+.cta-main-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta-secondary-text {
+  font-size: 18px;
 }
 
 .cta-sign-up {
   border: 2px solid #fff;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+  color: #fff;
+}
+
+/* Horizontal padding and margin are more complex problem to solve, given the 
+   design. Thus, the end of the stylesheet contains the solution. */
+.header,
+.hero {
+  padding-left: max(16px, calc((100vw - 1000px) / 2));
+  padding-right: max(16px, calc((100vw - 1000px) / 2));
+  min-width: 1000px;
+}
+
+.quote-wrapper {
+  padding-left: max(16px, calc((100vw - 800px) / 2));
+  padding-right: max(16px, calc((100vw - 800px) / 2));
+  min-width: 800px;
+}
+
+.cta {
+  margin-left: max(16px, calc((100vw - 1000px) / 2));
+  margin-right: max(16px, calc((100vw - 1000px) / 2));
+  min-width: 1000px;
 }
